@@ -1,0 +1,25 @@
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters_test.ini
+logs/*
+
+#bkps
+*.php~ 
+
+log/*
+cov/*
+
+#sublime
+neventum-4.sublime.project
+neventum-4.sublime.workspace
+
