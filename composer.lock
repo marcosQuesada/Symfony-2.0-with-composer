@@ -1,5 +1,5 @@
 {
-    "hash": "70c0e266646f08045325444ff68c3a67",
+    "hash": "7c192f7b224978f2f879a27b64ad157d",
     "packages": [
         {
             "package": "behat/behat",
@@ -56,8 +56,24 @@
             "version": "v2.0.1"
         },
         {
+            "package": "doctrine/doctrine-migrations-bundle",
+            "version": "dev-master",
+            "source-reference": "3792aa78445773387754c6853bbd7f4dcb31f486",
+            "commit-date": "1341472972"
+        },
+        {
+            "package": "doctrine/migrations",
+            "version": "dev-master",
+            "source-reference": "fe98141b1e460baf5ab52f9139e1ae238101b28b",
+            "commit-date": "1336330359"
+        },
+        {
             "package": "doctrine/orm",
             "version": "2.1.7"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "v2.2.3"
         },
         {
             "package": "instaclick/php-webdriver",
@@ -104,6 +120,12 @@
             "commit-date": "1339741720"
         },
         {
+            "package": "stof/doctrine-extensions-bundle",
+            "version": "1.0.x-dev",
+            "source-reference": "1.0.2",
+            "commit-date": "1334857730"
+        },
+        {
             "package": "swiftmailer/swiftmailer",
             "version": "v4.1.8"
         },
@@ -135,6 +157,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "doctrine/data-fixtures": 20,
+        "doctrine/migrations": 20,
+        "doctrine/doctrine-migrations-bundle": 20,
+        "stof/doctrine-extensions-bundle": 20,
         "twig/extensions": 20,
         "symfony/assetic-bundle": 20,
         "jms/security-extra-bundle": 20,
